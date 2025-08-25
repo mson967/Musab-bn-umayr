@@ -1,6 +1,0 @@
-{
-  "name": "Fullstack Codespace",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install && npm --prefix client install && npm --prefix server install",
-  "postStartCommand": "npm run dev"
-}
